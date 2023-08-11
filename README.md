@@ -32,4 +32,7 @@ Because of personal purposes, I use my portrait images to train the model and yo
 
 See [Personal-Inference.ipynb](Personal-Inference.ipynb) for detail.
 
-## 3. 
+## Addition
+Beside Textual Inversion, there are some other methods to personalize text2image models like stable diffusion given just a few(3~5) images of a subject. Such as:
+- [DreamBooth](https://arxiv.org/abs/2208.12242)
+- [HyperDreamBooth](https://arxiv.org/abs/2307.06949)
