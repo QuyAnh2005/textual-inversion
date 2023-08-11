@@ -23,3 +23,13 @@ If the token embedding successfully captures the new concept, it gives more usef
 This optimization process typically occurs after several thousand steps of exposure to a variety of prompt and image variants.
 
 # Self-training
+## 1. Training 
+- [Training Colab](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/sd_textual_inversion_training.ipynb) - personalize Stable Diffusion by teaching new concepts to it with only 3-5 examples via Textual Inversion (in the Colab you can upload them directly here to the public library)
+- [Training on local machine](https://github.com/huggingface/diffusers/tree/main/examples/textual_inversion)
+
+## 2. Inference
+Because of personal purposes, I use my portrait images to train the model and you can get the pre-trained model [here](https://huggingface.co/sd-concepts-library/quyanh-person-v2).
+
+See [Personal-Inference.ipynb](Personal-Inference.ipynb) for detail.
+
+## 3. 
